@@ -76,15 +76,18 @@
   margin-bottom: 25px;
 }
 
-.indexBtn {
+.indexA {
   border: none;
   height: 45px;
+  box-sizing: border-box;
   border-radius: 5px;
   font-size: 17px;
   background-color: #f6f6f6;
+  text-align: center;
+  padding: 13px;
 }
 
-.login form button {
+.login form a {
   margin-bottom: 15px;
 }
 
@@ -103,8 +106,6 @@
 }
 
 .findAccount a {
-  text-decoration: none;
-  color: inherit;
   text-align: center;
   font-size: 15px;
 }

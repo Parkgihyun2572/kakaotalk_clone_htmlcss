@@ -1,4 +1,6 @@
-:root {
+:root a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
