@@ -52,6 +52,7 @@
 .welcome :nth-child(2) {
   margin-top: 25px;
   text-align: center;
+  color: #898989;
 }
 
 .login form {
@@ -61,10 +62,14 @@
 
 .login form input {
   border: none;
-  border-bottom: black 1px solid;
+  border-bottom: #adadad 1px solid;
   outline: 0;
   height: 50px;
   font-size: 20px;
+}
+
+.login form input::placeholder {
+  color: #adadad;
 }
 
 .login form input:nth-of-type(2) {
@@ -76,6 +81,7 @@
   height: 45px;
   border-radius: 5px;
   font-size: 17px;
+  background-color: #f6f6f6;
 }
 
 .login form button {
