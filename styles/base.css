@@ -1,3 +1,9 @@
+:root {
+  --border-color: #eeeeee;
+  --letter1-color: #818181;
+  --letter2-color: #bcbcbc;
+}
+
 :root a {
   text-decoration: none;
   color: inherit;
