@@ -1,0 +1,82 @@
+.settingMenu {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 15px 20px 10px 20px;
+  justify-content: space-between;
+}
+
+.settingMenu div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 33.33%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.settingMenu div:first-of-type {
+  justify-content: flex-start;
+}
+
+.settingMenu div:last-of-type {
+  justify-content: flex-end;
+}
+
+.settingsList {
+  display: flex;
+  flex-flow: column nowrap;
+  border-bottom: var(--border-color) 1px solid;
+  padding: 15px 0px 20px 0px;
+}
+
+.setting {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+  border-bottom: var(--border-color) 1px solid;
+}
+
+.setting div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.setting i {
+  font-size: 25px;
+}
+
+.setting p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.setting span {
+  color: var(--letter1-color);
+}
+
+.settingsList li:last-of-type .setting {
+  border-bottom: none;
+}
+
+.settingNewAlarm {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: red;
+  color: black;
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.settingNewAlarm p {
+  font-size: 12px;
+  position: absolute;
+  left: -16px;
+  color: white;
+}
