@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoatalk Clone - Chat page</title>
+    <script src="https://kit.fontawesome.com/2458fcd721.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="chatBody">
+    <header>
+        <section class="status">
+            <span>
+                <p>No service</p>
+                <i class="fas fa-wifi"></i>
+            </span>
+            <span>
+                <p>21:28</p>
+            </span>
+            <span>
+                <i class="fas fa-lock"></i>
+                <p>100%</p>
+                <i class="fas fa-battery-three-quarters"></i>
+            </span>
+        </section>
+        <section class="chatMenu">
+            <div>
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div>
+                <p>Park Gihyun</p>
+            </div>
+            <div>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </section>
+    </header>
+    <main class=chatMain>
+        <article class="conversations">
+            <div class="chatDate">
+                <p>Tuesday, June 30, 2020</p>
+            </div>
+            <div class="conversation">
+                <img src="pictures/picture1.jpg" alt="picture">
+                <div class="convDetail">
+                    <span class="convPercon">Park Gihyun</span>
+                    <div class="convWord">
+                        <div class="conv">
+                            <p>Hi!</p>
+                        </div>
+                        <span class="convTime">21:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="conversation conversationMine">
+                <div class="convDetail">
+                    <div class="convWord">
+                        <span class="convTime convMyTime">21:27</span>
+                        <div class="conv convMine">
+                            <p>What's up?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="chatKeyboard">
+            <section class="chatInput">
+                <div><i class="far fa-plus-square"></i></div>
+                <form action="">
+                    <input type="text">
+                    <div><i class="far fa-smile-beam"></i></div>
+                    <button>
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </form>
+            </section>
+        </article>
+    </main>
+</body>

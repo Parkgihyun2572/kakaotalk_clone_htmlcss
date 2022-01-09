@@ -14,6 +14,11 @@
   flex-flow: row nowrap;
 }
 
+.chats .description a {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .chats img {
   width: 60px;
   height: 60px;

@@ -1,0 +1,120 @@
+.chatBody {
+  background-color: #abc1d1;
+}
+
+.chatMenu {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 15px 20px 0px 20px;
+}
+
+.chatMenu div {
+  width: 33.3%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.chatMenu div:first-of-type {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.chatMenu div:last-of-type {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.chatMenu div:last-of-type i:last-of-type {
+  margin-left: 20px;
+}
+
+.chatMain {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.conversations {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.conversations .chatDate {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  background-color: rgba(1, 1, 1, 0.3);
+  width: 160px;
+  height: 26px;
+  border-radius: 13px;
+  margin-top: 28px;
+}
+
+.conversation {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.conversation img {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.convDetail {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.convWord {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+
+.conv {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+  margin: 7px 5px 0px 0px;
+}
+
+.conversationMine {
+  justify-content: flex-end;
+}
+
+.convMyTime {
+  margin: 10px 5px 0px 0px;
+}
+
+.convMine {
+  background-color: #fee500;
+}
+
+.chatKeyboard {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.chatInput {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.chatKeyboard form {
+  display: flex;
+  flex-flow: row nowrap;
+}
