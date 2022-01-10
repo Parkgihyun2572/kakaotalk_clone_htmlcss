@@ -107,14 +107,118 @@
   bottom: 0;
   display: flex;
   flex-flow: column nowrap;
+  width: 100%;
 }
 
 .chatInput {
   display: flex;
   flex-flow: row nowrap;
+  width: 100%;
+  padding: 0px 13px 0px 13px;
+  background-color: white;
+  box-sizing: border-box;
+  height: 50px;
+  align-items: center;
+}
+
+.chatInput .fa-plus-square {
+  font-size: 30px;
+  color: var(--letter1-color);
+  margin-right: 13px;
 }
 
 .chatKeyboard form {
   display: flex;
   flex-flow: row nowrap;
+  width: 100%;
+  background-color: var(--border-color);
+  border-radius: 30px;
+  padding: 3px 3px 3px 8px;
+  align-items: center;
+}
+
+.chatKeyboard form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--border-color);
+  font-size: 17px;
+}
+
+.chatKeyboard form div i {
+  font-size: 27px;
+  color: var(--letter1-color);
+}
+
+.chatKeyboard form button {
+  border: none;
+  background-color: #fee500;
+  border-radius: 30px;
+  height: 36px;
+  width: 40px;
+  margin-left: 15px;
+}
+
+.keyboard {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  background-color: #d1d4d9;
+}
+
+.keyboardLine {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.key {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-bottom: black 2px solid;
+  height: 46px;
+  border-radius: 6px;
+  background-color: white;
+  width: 42px;
+}
+
+.keyboardFirstLine {
+  margin: 7px 0px 12px 0px;
+}
+
+.keyboardSecondLine {
+  margin: 0px 20px 12px 20px;
+}
+
+.thirdLineKey {
+  background-color: #abb1ba;
+  width: 50px;
+}
+
+.keyLastLine {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.keyGray {
+  background-color: #abb1ba;
+}
+
+.middleSizeKey {
+  width: 48px;
+}
+
+.spaceKey {
+  width: 200px;
+}
+
+.returnKey {
+  width: 100px;
+}
+
+.littleLetterKey {
+  font-size: 20px;
 }
