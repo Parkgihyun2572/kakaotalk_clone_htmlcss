@@ -1,129 +1,145 @@
-.findMain {
-  display: flex;
-  flex-flow: column nowrap;
+@media screen and (min-width:600px) {
+  .block {
+    position: absolute;
+    background-color: #fae100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
 }
 
-.findMain .banner {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 100px;
-  margin-top: 20px;
-}
-
-.findMain .banner div {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  text-align: center;
-  width: 25%;
-}
-
-.findMain .banner div i {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.findMain .banner div:nth-of-type(2) i {
-  margin-bottom: 15px;
-}
-
-.recommendedFriends {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 0px 20px 0px 20px;
-  padding-top: 15px;
-  color: var(--letter1-color);
-  border-top: var(--border-color) 1px solid;
-  border-bottom: var(--border-color) 1px solid;
-}
-
-.recommendedFriends .list {
-  text-align: center;
-  margin: 80px 0px 80px 0px;
-}
-
-.openChats {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 15px 20px 0px 20px;
-}
-
-.openChats .title {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  color: var(--letter1-color);
-}
-
-.openChats .title div {
-  display: flex;
-  flex-flow: row nowrap;
-  color: var(--letter2-color);
-}
-
-.openChats .title div i {
-  margin-left: 5px;
-}
-
-.openChat {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0px 10px 0px;
-  border-bottom: var(--border-color) 1px solid;
-}
-
-.openChat div:first-of-type p:first-of-type {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.openChat div:first-of-type p:nth-of-type(2) {
-  color: var(--letter1-color);
-  margin-bottom: 5px;
-}
-
-.openChat div:first-of-type span {
-  color: var(--letter1-color);
-  margin-bottom: 5px;
-}
-
-.openChat div:first-of-type span p:nth-of-type(2) {
-  color: violet;
-}
-
-.openChat div:first-of-type span {
-  display: flex;
-  flex: row nowrap;
-}
-
-.openChat div:nth-of-type(2) {
-  position: relative;
-}
-
-.openChat div:nth-of-type(2) span {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 50px;
-  height: 20px;
-  border-radius: 10px;
-  color: white;
-  font-size: 12px;
-  background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 10px;
-  right: 5px;
-  justify-content: center;
-  align-items: center;
-}
-
-.openChat div:nth-of-type(2) span i {
-  margin-right: 4px;
-}
-
-.openChat img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
+@media screen and (max-width:600px){
+  .findMain {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .findMain .banner {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    margin-top: 20px;
+  }
+  
+  .findMain .banner div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+  }
+  
+  .findMain .banner div i {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .findMain .banner div:nth-of-type(2) i {
+    margin-bottom: 15px;
+  }
+  
+  .recommendedFriends {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px 20px 0px 20px;
+    padding-top: 15px;
+    color: var(--letter1-color);
+    border-top: var(--border-color) 1px solid;
+    border-bottom: var(--border-color) 1px solid;
+  }
+  
+  .recommendedFriends .list {
+    text-align: center;
+    margin: 80px 0px 80px 0px;
+  }
+  
+  .openChats {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 15px 20px 0px 20px;
+  }
+  
+  .openChats .title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: var(--letter1-color);
+  }
+  
+  .openChats .title div {
+    display: flex;
+    flex-flow: row nowrap;
+    color: var(--letter2-color);
+  }
+  
+  .openChats .title div i {
+    margin-left: 5px;
+  }
+  
+  .openChat {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    border-bottom: var(--border-color) 1px solid;
+  }
+  
+  .openChat div:first-of-type p:first-of-type {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .openChat div:first-of-type p:nth-of-type(2) {
+    color: var(--letter1-color);
+    margin-bottom: 5px;
+  }
+  
+  .openChat div:first-of-type span {
+    color: var(--letter1-color);
+    margin-bottom: 5px;
+  }
+  
+  .openChat div:first-of-type span p:nth-of-type(2) {
+    color: violet;
+  }
+  
+  .openChat div:first-of-type span {
+    display: flex;
+    flex: row nowrap;
+  }
+  
+  .openChat div:nth-of-type(2) {
+    position: relative;
+  }
+  
+  .openChat div:nth-of-type(2) span {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .openChat div:nth-of-type(2) span i {
+    margin-right: 4px;
+  }
+  
+  .openChat img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
 }

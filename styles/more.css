@@ -1,124 +1,141 @@
-.moreMain {
-  display: flex;
-  flex-flow: column nowrap;
+@media screen and (min-width:600px) {
+  .block {
+    position: absolute;
+    background-color: #fae100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
 }
 
-.moreMain .user {
-  display: flex;
-  flex-flow: row column;
-  justify-content: space-between;
-  margin: 0px 20px 15px 20px;
-}
-
-.moreMain .user .description {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.moreMain .user .description div {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  margin-left: 15px;
-}
-
-.moreMain .user .description div .name {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.moreMain .user .description div span p {
-  color: var(--letter1-color);
-}
-
-.moreMain .user .description div span i {
-  margin-left: 5px;
-  color: red;
-}
-
-.moreMain .user .icon {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-}
-
-.moreMain .user .icon {
-  font-size: 30px;
-}
-
-.moreMain .user img {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
-}
-
-.moreMain .user .description span {
-  display: flex;
-  flex-flow: row column;
-}
-
-.moreMain .banners {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  height: 100px;
-}
-
-.moreMain .banner {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 25%;
-}
-
-.moreMain .banner i {
-  font-size: 30px;
-  margin-bottom: 18px;
-}
-
-.bannerAlarm {
-  position: absolute;
-  top: -8px;
-  right: 35px;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  background-color: red;
-}
-
-.suggest {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.suggest span {
-  margin: 0px 20px 0px 20px;
-  padding: 20px 0px 20px 0px;
-  border-top: var(--border-color) 1px solid;
-}
-
-.suggestions {
-  height: 100px;
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.suggestion {
-  width: 25%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-.suggestion img {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  margin-bottom: 7px;
-}
-
-.suggestion p {
-  color: var(--letter1-color);
-  font-size: 15px;
+@media screen and (max-width:600px){
+  .moreMain {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .moreMain .user {
+    display: flex;
+    flex-flow: row column;
+    justify-content: space-between;
+    margin: 0px 20px 15px 20px;
+  }
+  
+  .moreMain .user .description {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .moreMain .user .description div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  
+  .moreMain .user .description div .name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .moreMain .user .description div span p {
+    color: var(--letter1-color);
+  }
+  
+  .moreMain .user .description div span i {
+    margin-left: 5px;
+    color: red;
+  }
+  
+  .moreMain .user .icon {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  
+  .moreMain .user .icon {
+    font-size: 30px;
+  }
+  
+  .moreMain .user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+  }
+  
+  .moreMain .user .description span {
+    display: flex;
+    flex-flow: row column;
+  }
+  
+  .moreMain .banners {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .moreMain .banner {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .moreMain .banner i {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+  
+  .bannerAlarm {
+    position: absolute;
+    top: -8px;
+    right: 35px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: red;
+  }
+  
+  .suggest {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .suggest span {
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 20px 0px;
+    border-top: var(--border-color) 1px solid;
+  }
+  
+  .suggestions {
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .suggestion {
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  
+  .suggestion img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+  }
+  
+  .suggestion p {
+    color: var(--letter1-color);
+    font-size: 15px;
+  }
+  
 }
